@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TIC-TAC-TOE</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	
+	<h1 style="color: blue;">Enjoy tic-tac-toe Game</h1>
+
+	<div class="game-container">
+		
+         <div class="row1">
+         	<div class="zerozero" onclick="takeInput('00')"></div>
+         	<div class="zeroone" onclick="takeInput('01')"></div>
+         	<div class="zerotwo" onclick="takeInput('02')"></div>
+         </div>
+         <div class="row2">
+         	<div class="onezero" onclick="takeInput('10')"></div>
+         	<div class="oneone" onclick="takeInput('11')"></div>
+         	<div class="onetwo" onclick="takeInput('12')"></div>
+         </div>
+         <div class="row3">
+         	<div class="twozero" onclick="takeInput('20')"></div>
+         	<div class="twoone" onclick="takeInput('21')"></div>
+         	<div class="twotwo" onclick="takeInput('22')"></div>
+         </div>
+	</div>
+
+	<div class="result">
+		
+	</div>
+	<div style="display: flex;flex-direction: row;">
+	<button class="reset" onclick="window.location.reload();">Reset</button>
+
+	<button class="play-again" onclick="window.location.reload();">Play again</button>
+	</div>
+
+	<script src="index.js"></script>
+</body>
+</html>

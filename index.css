@@ -1,0 +1,158 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.game-container{
+height: 400px;
+width: 400px;
+border: 2px solid black;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.row1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	
+	height: 33%;
+	align-items: center;
+
+}
+.row2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	
+	height: 33%;
+	align-items: center;
+
+}
+
+.result{
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+}
+.row3{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	
+	height: 33%;
+	align-items: center;
+	
+}
+.zerozero{
+	border: 2px solid black;
+	height: 100%;
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.zeroone{
+	border: 2px solid black;
+	height: 100%;
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.zerotwo{
+	border: 2px solid black;
+	height: 100%;
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.onezero{
+	border: 2px solid black;
+	height: 100%;
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.oneone{
+	border: 2px solid black;
+	height: 100%;
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.onetwo{
+	border: 2px solid black;
+	height: 100%;
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.twozero{
+	border: 2px solid black;
+	height: 100%;
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.twoone{
+	border: 2px solid black;
+	height: 100%;
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.twotwo{
+	border: 2px solid black;
+	height: 100%;
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.play-again{
+	margin-left: 20px;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	background-color: blue;
+	height: 40px;
+	width: 120px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.reset{
+	margin-left: 20px;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	background-color: green;
+	height: 40px;
+	width: 120px;
+	border-radius: 5px;
+	cursor: pointer;
+}
